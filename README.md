@@ -10,8 +10,6 @@ I made some attempts to introduce Probmask, TokenEmbedding inspired by **[Inform
 ## Dependency
 
 * Before installing ``HelloQlib`` from the source, readers should check the dependencies from **[Qlib](https://github.com/microsoft/qlib)**.
-![PyTorch 1.2](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?style=plastic)
-![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
 * Clone the repository and install ``Qlib`` as follows.
     ```bash
