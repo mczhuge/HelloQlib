@@ -44,7 +44,7 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
       cd examples  # Avoid running program under the directory contains `qlib`
       qrun benchmarks/Informer/workflow_config_informer_Alpha158.yaml
     ```
-    The result of `qrun` is as follows, please refer to [Intraday Trading](https://qlib.readthedocs.io/en/latest/component/backtest.html) for more details about the result. 
+    The result of `qrun` is as follows, please refer to [Intraday Trading](https://qlib.readthedocs.io/en/latest/) for more details about the result. 
 
     ```bash
     'The following are analysis results of the excess return without cost(1day).'
