@@ -68,11 +68,11 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
 
 | Model Name                               | Dataset                             |  Annualized Return | Information Ratio | Max Drawdown |
 |------------------------------------------|-------------------------------------|-------------------|-------------------|--------------|
-| Transformer(Ashish Vaswani, et al.)      | Alpha158                            | 0.0273±0.02       | 0.3970±0.26       | -0.1101±0.02 |
-| LSTM(Sepp Hochreiter, et al.)            | Alpha158(with selected 20 features) | 0.0381±0.03       | 0.5561±0.46       | -0.1207±0.04 |
-| Localformer(Juyong Jiang, et al.)        | Alpha158                            | 0.0438±0.02       | 0.6600±0.33       | -0.0952±0.02 |
-| GATs (Petar Velickovic, et al.)          | Alpha158(with selected 20 features) | 0.0497±0.01       | 0.7338±0.19       | -0.0777±0.02 |
-| LightGBM(Guolin Ke, et al.)              | Alpha158                            |  0.0901±0.00       | 1.0164±0.00       | -0.1038±0.00 |
+| LSTM(Sepp Hochreiter, et al.)            | Alpha158(with selected 20 features) |  0.035872       | 0.553567       |  -0.118607 |
+| Transformer(Ashish Vaswani, et al.)      | Alpha158                            |  0.061941       | 0.923842       | -0.097422 |
+| Localformer(Juyong Jiang, et al.)        | Alpha158                            | 0.012461       | 0.201438       | -0.102535 |
+| GATs (Petar Velickovic, et al.)          | Alpha158(with selected 20 features) |  0.057336       | 0.828178       | -0.063197 |
+| LightGBM(Guolin Ke, et al.)              | Alpha158                            |  0.091711       | 1.034353       | -0.103803 |
 | Simplified Informer (modified from  Haoyi Zhou, et al.)  | Alpha158            |  0.1168±0.01       | 1.3384±0.12       | -0.1036±0.01 |
 
 ## Licence
