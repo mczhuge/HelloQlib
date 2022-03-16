@@ -1,3 +1,3 @@
-# Transformer
-* Code: [https://github.com/tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)
-* Paper: [Attention is All you Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf).
+# Informer
+* Code: [https://github.com/zhouhaoyi/Informer2020](https://github.com/zhouhaoyi/Informer2020)
+* Paper: [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436).
