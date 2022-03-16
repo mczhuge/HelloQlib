@@ -12,7 +12,7 @@
     Numpy
     Cython
     ```
-    is needed.
+   The above three is needed.
 
 * Clone the repository and install ``Qlib`` as follows.
     ```bash
