@@ -3,16 +3,16 @@
 
 
 
-# Quick Start
-### Install from source
-Also, users can install the latest dev version ``Qlib`` by the source code according to the following steps:
+# Install
+### Dependancy
 
-* Before installing ``Qlib`` from source, users need to install some dependencies:
-
-  ```bash
-  pip install numpy
-  pip install --upgrade  cython
-  ```
+* Before installing ``HelloQlib`` from source, readers shoud check the dependancies from **[Qlib](https://github.com/microsoft/qlib)**.
+    ```bash
+    Python = 3.7
+    Numpy
+    Cython
+    ```
+    is needed.
 
 * Clone the repository and install ``Qlib`` as follows.
     ```bash
