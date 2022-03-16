@@ -10,8 +10,20 @@ The goal is to make a model that is better than the standard transformer and its
 I made some attempts by introducing Probmask, TokenEmbedding inspired by **[Informer](https://github.com/zhouhaoyi/Informer2020)** that is popular to model long sequences. So I called the model "Simplified Informer". Besides, I use MAE loss to train the model. 
 
 ## Install
+* Create a conda container.
+    ```bash
+    conda create -n qlib_env python=3.7
+    conda activate qlib_env
+    pip install numpy
+    pip install --upgrade  cython   
+    conda install pytorch    
+    ```
 
 * Before installing ``HelloQlib`` from the source, readers should check the dependencies from **[Qlib](https://github.com/microsoft/qlib)**.
+    ```bash
+    git clone git@github.com:mczhuge/HelloQlib.git && cd HelloQlib/qlib
+    pip install .
+    ```
 
 * Clone the repository and install ``Qlib`` as follows.
     ```bash
@@ -23,7 +35,6 @@ I made some attempts by introducing Probmask, TokenEmbedding inspired by **[Info
   ```bash
   # get 1d data
   python scripts/get_data.py qlib_data --target_dir ~/.qlib/qlib_data/cn_data --region cn
-
   # get 1min data
   python scripts/get_data.py qlib_data --target_dir ~/.qlib/qlib_data/cn_data_1min --region cn --interval 1min
   ```
