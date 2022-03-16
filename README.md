@@ -18,13 +18,6 @@ I made some attempts by introducing Probmask, TokenEmbedding inspired by **[Info
     pip install --upgrade  cython   
     conda install pytorch    
     ```
-
-* Before installing ``HelloQlib`` from the source, readers should check the dependencies from **[Qlib](https://github.com/microsoft/qlib)**.
-    ```bash
-    git clone git@github.com:mczhuge/HelloQlib.git && cd HelloQlib/qlib
-    pip install .
-    ```
-
 * Clone the repository and install ``Qlib`` as follows.
     ```bash
     git clone git@github.com:mczhuge/HelloQlib.git && cd HelloQlib/qlib
