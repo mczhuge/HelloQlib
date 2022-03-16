@@ -73,7 +73,7 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
 | Localformer(Juyong Jiang, et al.)        | Alpha158                            | 0.012461       | 0.201438       | -0.102535 |
 | GATs (Petar Velickovic, et al.)          | Alpha158(with selected 20 features) |  0.057336       | 0.828178       | -0.063197 |
 | LightGBM(Guolin Ke, et al.)              | Alpha158                            |  0.091711       | 1.034353       | -0.103803 |
-| Simplified Informer (modified from  Haoyi Zhou, et al.)  | Alpha158            |  0.1168±0.01       | 1.3384±0.12       | -0.1036±0.01 |
+| Simplified Informer (modified from  Haoyi Zhou, et al.)  | Alpha158            |  0.072150       | 1.081228      | -0.088342 |
 
 ## Licence
 This is a quick play (and development) built upon Qlib. The right belongs to **[Qlib](https://github.com/microsoft/qlib)**：
