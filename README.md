@@ -9,13 +9,13 @@ This is a project that I tried out with the **[Qlib](https://github.com/microsof
 The goal is to make a model that is better than the standard transformer and its variants.
 I made some attempts by introducing Probmask, TokenEmbedding inspired by **[Informer](https://github.com/zhouhaoyi/Informer2020)** that is popular to model long sequences. So I called the model "Simplified Informer". Besides, I use MAE loss to train the model. 
 
-## Dependency
+## Install
 
 * Before installing ``HelloQlib`` from the source, readers should check the dependencies from **[Qlib](https://github.com/microsoft/qlib)**.
 
 * Clone the repository and install ``Qlib`` as follows.
     ```bash
-    git clone https://github.com/microsoft/qlib.git && cd qlib
+    git clone git@github.com:mczhuge/HelloQlib.git && cd HelloQlib/qlib
     pip install .
     ```
 
@@ -35,56 +35,6 @@ Users could create the same dataset with it. [Description of dataset](https://gi
 *Please pay **ATTENTION** that the data is collected from [Yahoo Finance](https://finance.yahoo.com/lookup), and the data might not be perfect.
 We recommend users to prepare their own data if they have a high-quality dataset. For more information, users can refer to the [related document](https://qlib.readthedocs.io/en/latest/component/data.html#converting-csv-format-into-qlib-format)*.
 
-### Automatic update of daily frequency data (from yahoo finance)
-  > This step is *Optional* if users only want to try their models and strategies on history data.
-  > 
-  > It is recommended that users update the data manually once (--trading_date 2021-05-25) and then set it to update automatically.
-  >
-  > For more information, please refer to: [yahoo collector](https://github.com/microsoft/qlib/tree/main/scripts/data_collector/yahoo#automatic-update-of-daily-frequency-datafrom-yahoo-finance)
-
-  * Automatic update of data to the "qlib" directory each trading day(Linux)
-      * use *crontab*: `crontab -e`
-      * set up timed tasks:
-
-        ```
-        * * * * 1-5 python <script path> update_data_to_bin --qlib_data_1d_dir <user data dir>
-        ```
-        * **script path**: *scripts/data_collector/yahoo/collector.py*
-
-  * Manual update of data
-      ```
-      python scripts/data_collector/yahoo/collector.py update_data_to_bin --qlib_data_1d_dir <user data dir> --trading_date <start date> --end_date <end date>
-      ```
-      * *trading_date*: start of trading day
-      * *end_date*: end of trading day(not included)
-
-
-<!-- 
-- Run the initialization code and get stock data:
-
-  ```python
-  import qlib
-  from qlib.data import D
-  from qlib.constant import REG_CN
-
-  # Initialization
-  mount_path = "~/.qlib/qlib_data/cn_data"  # target_dir
-  qlib.init(mount_path=mount_path, region=REG_CN)
-
-  # Get stock data by Qlib
-  # Load trading calendar with the given time range and frequency
-  print(D.calendar(start_time='2010-01-01', end_time='2017-12-31', freq='day')[:2])
-
-  # Parse a given market name into a stockpool config
-  instruments = D.instruments('csi500')
-  print(D.list_instruments(instruments=instruments, start_time='2010-01-01', end_time='2017-12-31', as_list=True)[:6])
-
-  # Load features of certain instruments in given time range
-  instruments = ['SH600000']
-  fields = ['$close', '$volume', 'Ref($close, 1)', 'Mean($close, 3)', '$high-$low']
-  print(D.features(instruments, fields, start_time='2010-01-01', end_time='2017-12-31', freq='day').head())
-  ```
- -->
 
 ## Auto Quant Research Workflow
 Qlib provides a tool named `qrun` to run the whole workflow automatically (including building dataset, training models, backtest and evaluation). You can start an auto quant research workflow and have a graphical reports analysis according to the following steps: 
