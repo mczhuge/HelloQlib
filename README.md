@@ -5,18 +5,13 @@
 
 ## Introduction
 This is a project that I tried with the **[Qlib](https://github.com/microsoft/qlib)** library, and I use it for stock prediction. The goal is to make a model that is better than the standard transformer and its variants.
-I made some attempts to introduce Probmask, TokenEmbedding inspired by **[Informer](https://github.com/zhouhaoyi/Informer2020)**. So I called the model "Simplified Informer". Besides, I use MAE loss to train the model. 
+I made some attempts to introduce Probmask, TokenEmbedding inspired by **[Informer](https://github.com/zhouhaoyi/Informer2020)** that is popular to model long sequences. So I called the model "Simplified Informer". Besides, I use MAE loss to train the model. 
 
-# Install
-### Dependancy
+## Dependency
 
-* Before installing ``HelloQlib`` from source, readers shoud check the dependancies from **[Qlib](https://github.com/microsoft/qlib)**.
-    ```bash
-    Python = 3.7
-    Numpy
-    Cython
-    ```
-The above three are needed.
+* Before installing ``HelloQlib`` from the source, readers should check the dependencies from **[Qlib](https://github.com/microsoft/qlib)**.
+![PyTorch 1.2](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?style=plastic)
+![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
 * Clone the repository and install ``Qlib`` as follows.
     ```bash
