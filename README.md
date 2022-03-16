@@ -4,13 +4,6 @@
 
 
 # Quick Start
-
-This quick start guide tries to demonstrate
-1. It's very easy to build a complete Quant research workflow and try your ideas with _Qlib_.
-2. Though with *public data* and *simple models*, machine learning technologies **work very well** in practical Quant investment.
-
-Here is a quick **[demo](https://terminalizer.com/view/3f24561a4470)** shows how to install ``Qlib``, and run LightGBM with ``qrun``. **But**, please make sure you have already prepared the data following the [instruction](#data-preparation).
-
 ### Install from source
 Also, users can install the latest dev version ``Qlib`` by the source code according to the following steps:
 
