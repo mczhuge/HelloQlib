@@ -4,7 +4,7 @@
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
 ## Introduction
-I'm interested in program-based quantitative investing for a while. This is a project that I tried with the **[Qlib](https://github.com/microsoft/qlib)** library, and I use it for stock prediction. The goal is to make a model that is better than the standard transformer and its variants.
+I'm interested in program-based quantitative investing for a while. This is a project that I tried with the **[Qlib](https://github.com/microsoft/qlib)** library, and makes experiments for stock prediction. The goal is to make a model that is better than the standard transformer and its variants.
 I made some attempts to introduce Probmask, TokenEmbedding inspired by **[Informer](https://github.com/zhouhaoyi/Informer2020)** that is popular to model long sequences. So I called the model "Simplified Informer". Besides, I use MAE loss to train the model. 
 
 ## Dependency
