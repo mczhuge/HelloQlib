@@ -11,31 +11,6 @@ This quick start guide tries to demonstrate
 
 Here is a quick **[demo](https://terminalizer.com/view/3f24561a4470)** shows how to install ``Qlib``, and run LightGBM with ``qrun``. **But**, please make sure you have already prepared the data following the [instruction](#data-preparation).
 
-
-## Installation
-
-This table demonstrates the supported Python version of `Qlib`:
-|               | install with pip           | install from source  | plot |
-| ------------- |:---------------------:|:--------------------:|:----:|
-| Python 3.7    | :heavy_check_mark:    | :heavy_check_mark:   | :heavy_check_mark: |
-| Python 3.8    | :heavy_check_mark:    | :heavy_check_mark:   | :heavy_check_mark: |
-| Python 3.9    | :x:                   | :heavy_check_mark:   | :x: |
-
-**Note**: 
-1. **Conda** is suggested for managing your Python environment.
-1. Please pay attention that installing cython in Python 3.6 will raise some error when installing ``Qlib`` from source. If users use Python 3.6 on their machines, it is recommended to *upgrade* Python to version 3.7 or use `conda`'s Python to install ``Qlib`` from source.
-1. For Python 3.9, `Qlib` supports running workflows such as training models, doing backtest and plot most of the related figures (those included in [notebook](examples/workflow_by_code.ipynb)). However, plotting for the *model performance* is not supported for now and we will fix this when the dependent packages are upgraded in the future.
-1. `Qlib`Requires `tables` package, `hdf5` in tables does not support python3.9. 
-
-### Install with pip
-Users can easily install ``Qlib`` by pip according to the following command.
-
-```bash
-  pip install pyqlib
-```
-
-**Note**: pip will install the latest stable qlib. However, the main branch of qlib is in active development. If you want to test the latest scripts or functions in the main branch. Please install qlib with the methods below.
-
 ### Install from source
 Also, users can install the latest dev version ``Qlib`` by the source code according to the following steps:
 
@@ -159,13 +134,7 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
 
 
 ## Licence
-Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the right to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+This is quick play and development built ont Qlib. The right belongs to Qlib：
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
