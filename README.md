@@ -39,35 +39,32 @@ the same repository.
 ## Experiments
 Qlib provides a tool named `qrun` to run the whole workflow automatically (including building dataset, training models, backtest and evaluation). You can start an auto quant research workflow and have a graphical reports analysis according to the following steps: 
 
-1. Quant Research Workflow: Run  `qrun` with lightgbm workflow config ([workflow_config_lightgbm_Alpha158.yaml](examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml) as following.
+1. Quant Research Workflow: Run  `qrun` with lightgbm workflow config ([workflow_config_informer_Alpha158.yaml](examples/benchmarks/Informer/workflow_config_informer_Alpha158.yaml) as following.
     ```bash
       cd examples  # Avoid running program under the directory contains `qlib`
-      qrun benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml
-    ```
-    If users want to use `qrun` under debug mode, please use the following command:
-    ```bash
-    python -m pdb qlib/workflow/cli.py examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml
+      qrun benchmarks/Informer/workflow_config_informer_Alpha158.yaml
     ```
     The result of `qrun` is as follows, please refer to [Intraday Trading](https://qlib.readthedocs.io/en/latest/component/backtest.html) for more details about the result. 
 
     ```bash
-
-    'The following are analysis results of the excess return without cost.'
-                           risk
-    mean               0.000708
-    std                0.005626
-    annualized_return  0.178316
-    information_ratio  1.996555
-    max_drawdown      -0.081806
-    'The following are analysis results of the excess return with cost.'
-                           risk
-    mean               0.000512
-    std                0.005626
-    annualized_return  0.128982
-    information_ratio  1.444287
-    max_drawdown      -0.091078
+    'The following are analysis results of the excess return without cost(1day).'
+                       risk
+mean               0.000489
+std                0.004326
+annualized_return  0.116330
+information_ratio  1.743127
+max_drawdown      -0.079772
+'The following are analysis results of the excess return with cost(1day).'
+                       risk
+mean               0.000303
+std                0.004325
+annualized_return  0.072150
+information_ratio  1.081228
+max_drawdown      -0.088342
     ```
     Here are detailed documents for `qrun` and [workflow](https://qlib.readthedocs.io/en/latest/component/workflow.html).
+
+## Comparisons
 
 
 ## Licence
