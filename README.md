@@ -28,12 +28,8 @@ I made some attempts by introducing Probmask, TokenEmbedding inspired by **[Info
   python scripts/get_data.py qlib_data --target_dir ~/.qlib/qlib_data/cn_data_1min --region cn --interval 1min
   ```
 
-This dataset is created by public data collected by [crawler scripts](scripts/data_collector/), which have been released in
+As mentioned in Qlib, this dataset is created by public data collected by [crawler scripts](scripts/data_collector/), which have been released in
 the same repository.
-Users could create the same dataset with it. [Description of dataset](https://github.com/microsoft/qlib/tree/main/scripts/data_collector#description-of-dataset)
-
-*Please pay **ATTENTION** that the data is collected from [Yahoo Finance](https://finance.yahoo.com/lookup), and the data might not be perfect.
-We recommend users to prepare their own data if they have a high-quality dataset. For more information, users can refer to the [related document](https://qlib.readthedocs.io/en/latest/component/data.html#converting-csv-format-into-qlib-format)*.
 
 
 ## Auto Quant Research Workflow
