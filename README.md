@@ -134,7 +134,7 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
 
 
 ## Licence
-This is quick play and development built ont Qlib. The right belongs to Qlib：
+This is quick play and development built ont Qlib. The right belongs to **[Qlib](https://github.com/microsoft/qlib)**：
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
