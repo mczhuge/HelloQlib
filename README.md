@@ -65,6 +65,7 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
     Here are detailed documents for `qrun` and [workflow](https://qlib.readthedocs.io/en/latest/component/workflow.html).
 
 ## Comparisons on Alpha158 dataset (excess return with cost)
+:triangular_flag_on_post: denotes top-2 solutions.
 
 | Model Name                               | Dataset                             |  Annualized Return | Information Ratio | Max Drawdown |
 |------------------------------------------|-------------------------------------|-------------------|-------------------|--------------|
