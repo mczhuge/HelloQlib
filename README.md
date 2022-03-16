@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/pypi/l/pyqlib)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
 
