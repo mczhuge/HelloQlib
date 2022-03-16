@@ -39,7 +39,7 @@ the same repository.
 ## Experiments
 Qlib provides a tool named `qrun` to run the whole workflow automatically (including building dataset, training models, backtest and evaluation). You can start an auto quant research workflow and have a graphical reports analysis according to the following steps: 
 
-1. Quant Research Workflow: Run  `qrun` with lightgbm workflow config ([workflow_config_informer_Alpha158.yaml](Qlib/examples/benchmarks/Informer/workflow_config_informer_Alpha158.yaml) as following.
+1. Quant Research Workflow: Run  `qrun` with lightgbm workflow config ([workflow_config_informer_Alpha158.yaml](qlib/examples/benchmarks/Informer/workflow_config_informer_Alpha158.yaml) as following.
     ```bash
       cd examples  # Avoid running program under the directory contains `qlib`
       qrun benchmarks/Informer/workflow_config_informer_Alpha158.yaml
