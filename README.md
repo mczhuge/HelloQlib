@@ -36,7 +36,7 @@ As mentioned in Qlib, this dataset is created by public data collected by [crawl
 the same repository.
 
 
-## Auto Quant Research Workflow
+## Experiments
 Qlib provides a tool named `qrun` to run the whole workflow automatically (including building dataset, training models, backtest and evaluation). You can start an auto quant research workflow and have a graphical reports analysis according to the following steps: 
 
 1. Quant Research Workflow: Run  `qrun` with lightgbm workflow config ([workflow_config_lightgbm_Alpha158.yaml](examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha158.yaml) as following.
