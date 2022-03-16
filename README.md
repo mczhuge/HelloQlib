@@ -35,6 +35,8 @@ I made some attempts by introducing Probmask, TokenEmbedding inspired by **[Info
 As mentioned in Qlib, this dataset is created by public data collected by [crawler scripts](scripts/data_collector/), which have been released in
 the same repository.
 
+## Simplified Informer
+![framework](model.pdf) 
 
 ## Experiments
 Qlib provides a tool named `qrun` to run the whole workflow automatically (including building dataset, training models, backtest and evaluation). You can start an auto quant research workflow and have a graphical reports analysis according to the following steps: 
