@@ -49,18 +49,18 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
     ```bash
     'The following are analysis results of the excess return without cost(1day).'
                        risk
-mean               0.000489
-std                0.004326
-annualized_return  0.116330
-information_ratio  1.743127
-max_drawdown      -0.079772
-'The following are analysis results of the excess return with cost(1day).'
-                       risk
-mean               0.000303
-std                0.004325
-annualized_return  0.072150
-information_ratio  1.081228
-max_drawdown      -0.088342
+    mean               0.000489
+    std                0.004326
+    annualized_return  0.116330
+    information_ratio  1.743127
+    max_drawdown      -0.079772
+    'The following are analysis results of the excess return with cost(1day).'
+                         risk
+    mean               0.000303
+    std                0.004325
+    annualized_return  0.072150
+    information_ratio  1.081228
+    max_drawdown      -0.088342
     ```
     Here are detailed documents for `qrun` and [workflow](https://qlib.readthedocs.io/en/latest/component/workflow.html).
 
