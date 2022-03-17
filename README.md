@@ -79,7 +79,7 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
 | Simplified Informer (modified from  Haoyi Zhou, et al.)  | Alpha158            | 4m39s |  **0.072150 :triangular_flag_on_post:**     | **1.081228:triangular_flag_on_post:**     | **-0.088342:triangular_flag_on_post:** |
 
 ## Licence
-This is a quick play (and development) built upon Qlib. The right belongs to **[Qlib](https://github.com/microsoft/qlib)**：
+This is a quick play (and development) built upon Qlib. The right belongs to official **[Qlib](https://github.com/microsoft/qlib)**：
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
