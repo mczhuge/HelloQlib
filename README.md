@@ -71,11 +71,11 @@ Qlib provides a tool named `qrun` to run the whole workflow automatically (inclu
 
 | Model Name                               | Dataset                             |Training Time |  Annualized Return | Information Ratio | Max Drawdown |
 |------------------------------------------|-------------------------------------|-------------------|-------------------|-------------------|--------------|
-| LSTM(Sepp Hochreiter, et al.)            | Alpha158(with selected 20 features) | 2m49s |  0.035872       | 0.553567       |  -0.118607 |
+| LSTM(Sepp Hochreiter, et al.)            | Alpha158(with selected 20 features) | **2m49s:triangular_flag_on_post:** |  0.035872       | 0.553567       |  -0.118607 |
 | Transformer(Ashish Vaswani, et al.)      | Alpha158                            | 9m27s | 0.061941       | 0.923842       | -0.097422 |
 | Localformer(Juyong Jiang, et al.)        | Alpha158                            | 9m11s| 0.012461       | 0.201438       | -0.102535 |
 | GATs (Petar Velickovic, et al.)          | Alpha158(with selected 20 features) | 11m52s | 0.057336       | 0.828178       | **-0.063197:triangular_flag_on_post:**|
-| LightGBM(Guolin Ke, et al.)              | Alpha158                            | 14s | **0.091711:triangular_flag_on_post:**      | **1.034353:triangular_flag_on_post:**      | -0.103803 |
+| LightGBM(Guolin Ke, et al.)              | Alpha158                            | **14s:triangular_flag_on_post:** | **0.091711:triangular_flag_on_post:**      | **1.034353:triangular_flag_on_post:**      | -0.103803 |
 | Simplified Informer (modified from  Haoyi Zhou, et al.)  | Alpha158            | 4m39s |  **0.072150 :triangular_flag_on_post:**     | **1.081228:triangular_flag_on_post:**     | **-0.088342:triangular_flag_on_post:** |
 
 ## Licence
