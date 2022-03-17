@@ -7,7 +7,7 @@
 I'm interested in program-based quantitative investing for a while. 
 This is a project that I tried out with the **[Qlib](https://github.com/microsoft/qlib)** library, and it performs stock prediction experiments.
 The goal is to make a model that is better than the standard transformer and its variants.
-I made some attempts by introducing Probmask, TokenEmbedding inspired by **[Informer](https://github.com/zhouhaoyi/Informer2020)** that is popular to model long sequences. So I called the model "Simplified Informer". Besides, I use MAE loss to train the model. 
+I made some attempts inspired by **[Informer](https://github.com/zhouhaoyi/Informer2020)** that is popular to model long sequences. So I called the model "Simplified Informer". Besides, I use MAE loss to train the model. 
 
 ## Install
 * Create a conda container.
